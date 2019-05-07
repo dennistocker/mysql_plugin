@@ -18,4 +18,7 @@
 6. mysql-plugin-database = eos: 配置mysql数据库名称，默认eos
 7. mysql-block-start = 0: 配置开始解析的块高，默认为0 
 8. mysql-wipe = false：当以`replay-blockchain`、`hard-replay-blockchain`、`delete-all-blocks`参数启动nodeos时，可配置此参数，清空mysql数据库，从初始块开始统计。
+9. 使用mysql插件的节点，需要配置成`read-only`模式
+    
+    `read-mode=read-only`
 
